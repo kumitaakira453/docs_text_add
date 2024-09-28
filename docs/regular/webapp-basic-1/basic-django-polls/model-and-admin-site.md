@@ -25,7 +25,7 @@ title: "モデル・管理者サイト"
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_extensions', ←ここに追記
+    'django_extensions', #ここに追記
     'polls',
     'forum',
    ]
