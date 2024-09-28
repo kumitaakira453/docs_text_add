@@ -1,21 +1,5 @@
-## 拡張子
+# 教材追加資料
 
-`index.md`
+## 目次
 
-1. 犬も歩けば棒に当たる
-2. 短期は損気
-
-## コンソール出力
-
-```bash
-#comment
-cd this
-```
-
-```python
-if request.method=="POST":
-    return HttpResponse(request.user.username)
-```
-
-[second](./second.md)
-[third](./main/third.md)
+1. [ゼミ](./docs/regular/index.md)
