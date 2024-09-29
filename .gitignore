@@ -8,3 +8,5 @@ _site/
 
 # ローカル用の設定
 _config_dev.yml
+
+.vscode
