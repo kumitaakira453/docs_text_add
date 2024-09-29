@@ -9,6 +9,3 @@ EC2 を用いたデプロイにおいて、特定のファイルを編集する�
 ### 手順
 
 手順については[このページ](https://zenn.dev/aew2sbee/articles/aws-ec2-vscode)を参考にするといいと思います。若干 aws の UI(見た目)がサイトの画像と異なるので注意してください。
-
-![画像の説明](./images/image.png)
-<img src="./images/image.png" alt="Description" width="400" height="300">
