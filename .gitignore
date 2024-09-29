@@ -1,0 +1,10 @@
+# ローカルでの確認用
+Makefile
+Gemfile
+Gemfile.lock
+
+#ローカルの出力
+_site/
+
+# ローカル用の設定
+_config_dev.yml
