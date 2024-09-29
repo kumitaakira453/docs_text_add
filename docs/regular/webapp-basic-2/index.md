@@ -1,7 +1,7 @@
 ---
 title: "web アプリの基礎 ②"
 ---
-[ゼミ](../index.md)/[webアプリの基礎②](./index.md)
+[ゼミ](../index.md)/webアプリの基礎②
 
 ## 目次
 
