@@ -5,12 +5,12 @@ title: "モデル・管理者サイト"
 ## さらに便利なデータベースの操作
 
 [教科書](https://be-engineer.tech/docs/regular/webapp-basic-1/basic-django-polls/model-and-admin-site.html#:~:text=%E3%82%92%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8B%E3%80%82-,%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%92%E6%93%8D%E4%BD%9C%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B,-%EF%83%81)で扱った対話モードでのデータベースの操作は、作成したデータベースの挙動をテストする際に非常に有用な方法です。特に今後複雑なデータベースを構築するようになると、データベースにアクセスするコードを書いていても、思い通りには動かないケースを多く出てくると思います。そういった時に、自分が考えたデータベースへのアクセスをテストしながら書いていくことは、開発していく上で大事なスキルになります。
-そういった時に用いられるのが`django_shell`なのですが、使ってみてわかるように作成した DB を毎回 import する必要があり、さらに django で開発している時は当たり前に使っている、(vscode のエディターの)入力補完機能もついていません。
+そういった時に用いられるのが**django_shell**なのですが、使ってみてわかるように作成した DB を毎回 import する必要があり、さらに django で開発している時は当たり前に使っている、(vscode のエディターの)入力補完機能もついていません。
 今回紹介するのは、そういった面倒なことを自動でやってくれる django のパッケージです。
-`django-extension`の[`shell_plus`](https://django-extensions.readthedocs.io/en/latest/shell_plus.html)と呼ばれる機能を使います。djnago にもともと入っているものではないので、追加で install が必要ですが、一度入れてしまったら後々非常に便利なので、ぜひ入れておいてください。
+**django-extension**の[**shell_plus**](https://django-extensions.readthedocs.io/en/latest/shell_plus.html)と呼ばれる機能を使います。djnago にもともと入っているものではないので、追加で install が必要ですが、一度入れてしまったら後々非常に便利なので、ぜひ入れておいてください。
 導入方法を以下に示します。
 
-### `shell_plus`の導入方法
+### **shell_plus**の導入方法
 
 1. ターミナル上で以下を実行し`django-extensions`をインストール
    ```bash
