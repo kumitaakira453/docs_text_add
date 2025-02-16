@@ -75,7 +75,7 @@ console.log(studentList);
 #### コード例
 
 ```javascript
-// 100までたし合わせる関数
+// 100回たし合わせる関数
 function sumCalculator1() {
     let sum = 0;
     let add = 1;
@@ -106,6 +106,7 @@ console.log("問題1(n回):", sumCalculator1n(100));
 #### コード例
 
 ```javascript
+// 100回足し合わせる関数
 function sumCalculator2() {
     let sum = 0;
     let count = 1;
@@ -118,6 +119,7 @@ function sumCalculator2() {
 
 console.log("問題2(100回):", sumCalculator2(100));
 
+// n回たし合わせる関数
 function sumCalculator2n(n) {
     let sum = 0;
     let count = 1;
@@ -136,6 +138,7 @@ console.log("問題2(n回):", sumCalculator2n(100));
 #### コード例
 
 ```javascript
+// 100回たし合わせる関数
 function sumCalculator3() {
     let sum = 0;
     let count = 1;
@@ -151,6 +154,7 @@ function sumCalculator3() {
 }
 console.log("問題3(100回):", sumCalculator3());
 
+// n回たし合わせる関数
 function sumCalculator3n() {
     let sum = 0;
     let count = 1;
@@ -166,6 +170,7 @@ function sumCalculator3n() {
 }
 console.log("問題3(n回):", sumCalculator3n(100));
 
+// 複数パターンたし合わせる関数
 function sumOutput3() {
     const roopCounts = [
         1, 2, 3, 4, 5, 10, 20, 50, 100, 200, 500, 1000, 5000, 10000,
@@ -184,6 +189,7 @@ sumOutput3();
 #### コード例
 
 ```javascript
+// 100回たし合わせる関数
 function sumCalculator4() {
     let sum = 0;
     let count = 1;
@@ -199,6 +205,7 @@ function sumCalculator4() {
 }
 console.log("問題4(100回):", sumCalculator4());
 
+// n回足し合わせる関数
 function sumCalculator4n(n) {
     let sum = 0;
     let count = 1;
@@ -214,6 +221,7 @@ function sumCalculator4n(n) {
 }
 console.log("問題4(n回):", sumCalculator4n(100));
 
+// 複数パターンたし合わせる関数
 function sumOutput4() {
     const roopCounts = [3, 6, 9, 30, 60, 90, 300, 600, 900, 3000, 9000, 15000];
     roopCounts.forEach((roopCount) => {
@@ -228,6 +236,7 @@ sumOutput4();
 
 #### コード例
 ```javascript
+// 100回たし合わせる関数
 function sumCalculator5() {
     let sum = 0;
     let count = 1;
@@ -239,6 +248,7 @@ function sumCalculator5() {
 }
 console.log("問題5(100回):", sumCalculator5());
 
+// n回足し合わせる関数
 function sumCalculator5n(n) {
     let sum = 0;
     let count = 1;
@@ -250,6 +260,7 @@ function sumCalculator5n(n) {
 }
 console.log("問題5(n回):", sumCalculator5n(100));
 
+// 複数パターンたし合わせる関数
 function sumOutput5() {
     const roopCounts = [3, 6, 9, 30, 60, 90, 300, 600, 900, 3000, 9000, 15000];
     roopCounts.forEach((roopCount) => {
@@ -264,6 +275,7 @@ sumOutput5();
 
 #### コード例
 ```javascript
+// 100回たし合わせる関数
 function sumCalculator6() {
     let sum = 0;
     let count = 1;
@@ -275,6 +287,7 @@ function sumCalculator6() {
 }
 console.log("問題5(100回):", sumCalculator6());
 
+// n回足し合わせる関数
 function sumCalculator6n() {
     let sum = 0;
     let count = 1;
@@ -286,6 +299,7 @@ function sumCalculator6n() {
 }
 console.log("問題5(n):", sumCalculator6n(100));
 
+// 複数パターンたし合わせる関数
 function sumOutput6() {
     const roopCounts = [3, 6, 9, 30, 60, 90, 300, 600, 900, 3000, 9000, 15000];
     roopCounts.forEach((roopCount) => {
