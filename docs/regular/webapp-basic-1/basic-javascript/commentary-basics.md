@@ -27,13 +27,6 @@ console.log("count:", count);
 ## 演習 2 - 投票の集計
 ### コード例
 ```javascript
-
-// 生徒のオブジェクトのリスト
-const studentList = [student1, student2, student3, student4, student5];
-
-// 投票結果オブジェクトのリスト
-const answerList = [answer1, answer2, answer3, answer4, answer5];
-
 answerList.forEach((answer) => {
     const answerId = answer.id;
     const answerPlace = answer.place;
