@@ -6,7 +6,3 @@ title: "web アプリの基礎 ②"
 ## 目次
 
 1. [Git の基礎とデプロイ](./basic-git/index.md)
-```patch
-+ hello
-- goodbye
-```
