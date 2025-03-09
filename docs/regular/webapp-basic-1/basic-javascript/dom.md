@@ -199,7 +199,7 @@ body form .form__button>button {
 
 
 
-###　解答例
+### 解答例
 
 #### `script.js`
 ```javascript

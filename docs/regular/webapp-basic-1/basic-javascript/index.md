@@ -6,3 +6,4 @@ title: "JavaScript について学ぶ"
 
 1. [基礎文法演習の解説](./commentary-basics.md)
 2. [Web で使うテクニック](./dom.md)
+3. [Web で使うテクニック演習 の解説](./commentary-dom-technic.md)
